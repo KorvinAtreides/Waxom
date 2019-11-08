@@ -307,7 +307,8 @@ background-color: #998675;
 .container5 .grid5{
 	display: grid;
 	grid: repeat(2, 340px) / repeat(3, 1fr);
-	grid-gap: 30px;
+	grid-column-gap: 30px;
+	grid-row-gap: 50px;
 	margin-top: 40px;
 }
 .container5 .grid5 .ite5_1 {text-align: center; 
@@ -531,8 +532,10 @@ background-color: #998675;
 	background-position: center center;
 	height: 220px;
 }
-.container9 .card9 {margin-left: 3%;
-margin-bottom: 100px;}
+.container9 .card9 {padding: 0px;
+margin-left:3%;
+margin-bottom: 50px;}
+
 .container9 .card9:first-child{margin-left:0%;}
 
 .container9 #i911{background-image: url(./img/card1.png);}
@@ -966,7 +969,8 @@ footer hr{
 	font-size: 12px;
 	padding: 15px 31px 15px 29px;
 	}
-
+	.container2 {
+		height: 572px;}
 	.container3 h2 {
 		font-size: 18px;}
 
@@ -977,6 +981,12 @@ footer hr{
 		font-size: 10px;
 	}
 	.container5 .bttnos {margin-top: 52px;}
+
+	.container5 .grid5 {
+		grid: repeat(6, 300px) / repeat(1, 75%);
+		grid-row-gap: 10px;
+		justify-content: center;
+	}
 
 	.container6 .overlay h3 {
 		font-size: 18px;
@@ -1003,6 +1013,9 @@ footer hr{
 		margin-bottom: 5px;
 		margin-left: 0px;
 	}
+	.container9 .card9 {width: 55% !important;
+	margin-bottom: 10px;}
+	
 	.container9 .cards .card-text{
 		font-size: 10px;
 		margin-bottom: 15px;
@@ -1048,4 +1061,8 @@ footer hr{
 		flex-direction: row;	
 		height: 150px;}
 		footer .flexfoot div{text-align: center;}
+}
+
+@media (max-height:600px) {
+	.container1 .block1 {margin: 0px;}
 }
