@@ -1013,6 +1013,7 @@ footer hr{
 		margin-bottom: 5px;
 		margin-left: 0px;
 	}
+	.container9 .card9 {margin-left:0%;}
 	.container9 .card9 {width: 55% !important;
 	margin-bottom: 10px;}
 
@@ -1062,7 +1063,7 @@ footer hr{
 		height: 150px;}
 		footer .flexfoot div{text-align: center;}
 }
-@media (max-width:450px){.container9 .card9 {width: 75% !important;}}
+@media (max-width:450px){.container9 .card9 {width: 90% !important;}}
 @media (max-height:600px) {
 	.container1 .block1 {margin: 0px;}
 }
