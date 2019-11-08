@@ -1015,7 +1015,7 @@ footer hr{
 	}
 	.container9 .card9 {width: 55% !important;
 	margin-bottom: 10px;}
-	
+
 	.container9 .cards .card-text{
 		font-size: 10px;
 		margin-bottom: 15px;
@@ -1062,7 +1062,7 @@ footer hr{
 		height: 150px;}
 		footer .flexfoot div{text-align: center;}
 }
-
+@media (max-width:450px){.container9 .card9 {width: 75% !important;}}
 @media (max-height:600px) {
 	.container1 .block1 {margin: 0px;}
 }
